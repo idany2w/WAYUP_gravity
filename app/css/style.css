@@ -67,22 +67,6 @@ h6 {
   color: #fff;
 }
 
-.header__nav {
-  padding: 60px 0;
-}
-
-.header__search {
-  background: transparent;
-  border: none;
-}
-
-.header__menu {
-  display: block;
-  margin-left: auto;
-  background: transparent;
-  border: none;
-}
-
 .hero {
   position: relative;
 }
@@ -124,6 +108,22 @@ h6 {
   width: 65px;
   height: 65px;
   pointer-events: none;
+}
+
+.header__nav {
+  padding: 60px 0;
+}
+
+.header__search {
+  background: transparent;
+  border: none;
+}
+
+.header__menu {
+  display: block;
+  margin-left: auto;
+  background: transparent;
+  border: none;
 }
 
 .offer {
