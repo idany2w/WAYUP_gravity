@@ -23,6 +23,10 @@ button {
   margin: 0;
 }
 
+p {
+  margin-bottom: 20px;
+}
+
 body {
   font-family: "Fira Sans", sans-serif;
   color: #8D8D8D;
@@ -38,10 +42,59 @@ h6 {
   font-style: normal;
   font-weight: 700;
   color: #151515;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
   margin: 0;
   padding: 0;
   line-height: 1.1em;
+}
+
+.about {
+  padding-bottom: 137px;
+}
+
+.about__text {
+  margin-bottom: 41px;
+}
+
+.about__author {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__author-img {
+  display: block;
+  width: 65px;
+  height: 65px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.about__author-info {
+  margin-left: 15px;
+}
+
+.about__author-name {
+  color: #151515;
+  display: block;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.455;
+}
+
+.about__author-position {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.555;
 }
 
 .btn {
@@ -65,6 +118,16 @@ h6 {
 .btn:hover {
   background-color: #4737ff;
   color: #fff;
+}
+
+.caption {
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.caption_h3 {
+  font-size: 40px;
+  margin: 36px 0 30px;
 }
 
 .hero {
@@ -110,6 +173,10 @@ h6 {
   pointer-events: none;
 }
 
+.header {
+  padding-bottom: 137px;
+}
+
 .header__nav {
   padding: 60px 0;
 }
@@ -128,7 +195,6 @@ h6 {
 
 .offer {
   position: relative;
-  overflow-x: hidden;
 }
 
 .offer__content {

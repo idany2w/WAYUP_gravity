@@ -1,0 +1,38 @@
+.about {
+  padding-bottom: 137px;
+}
+
+.about__text {
+  margin-bottom: 41px;
+}
+
+.about__author {
+  display: flex;
+  align-items: center;
+}
+
+.about__author-img {
+  display: block;
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.about__author-info {
+  margin-left: 15px;
+}
+
+.about__author-name {
+  color: #151515;
+  display: block;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.455;
+}
+
+.about__author-position {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.555;
+}
