@@ -17,13 +17,16 @@ const scss_src = [
     "app/scss/**/*.scss"
 ]
 const css_src = [
+	"node_modules/bootstrap/dist/css/bootstrap.min.css",	//add bootstrap styles
     "app/css/**/*.css",
     "app/blocks/**/*.css",
     "!app/css/style.css",
     "!app/css/style.min.css",
 ]
 const js_src = [
-    "app/blocks/**/*.js",		
+    "node_modules/jquery/dist/jquery.slim.min.js", //jquery
+    "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", //bootstrap js(poppe.js included)
+    "app/blocks/**/*.js",
     "app/js/**/*.js",		
     "!app/js/script.js", 
     "!app/js/script.min.js"
