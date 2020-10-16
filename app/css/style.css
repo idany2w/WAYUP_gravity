@@ -48,6 +48,29 @@ h6 {
   line-height: 1.1em;
 }
 
+.btn {
+  background-color: #3726F2;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 0;
+  display: inline;
+  letter-spacing: 0.3em;
+  -webkit-transition: background-color .25s ease, color .25s ease;
+  -o-transition: background-color .25s ease, color .25s ease;
+  -moz-transition: background-color .25s ease, color .25s ease;
+  transition: background-color .25s ease, color .25s ease;
+}
+
+.btn:hover {
+  background-color: #4737ff;
+  color: #fff;
+}
+
 .about {
   padding-bottom: 137px;
 }
@@ -97,29 +120,6 @@ h6 {
   line-height: 1.555;
 }
 
-.btn {
-  background-color: #3726F2;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.7;
-  padding: 16px 30px;
-  border: none;
-  border-radius: 0;
-  display: inline;
-  letter-spacing: 0.3em;
-  -webkit-transition: background-color .25s ease, color .25s ease;
-  -o-transition: background-color .25s ease, color .25s ease;
-  -moz-transition: background-color .25s ease, color .25s ease;
-  transition: background-color .25s ease, color .25s ease;
-}
-
-.btn:hover {
-  background-color: #4737ff;
-  color: #fff;
-}
-
 .caption {
   line-height: 1.25;
   font-weight: 600;
@@ -158,8 +158,8 @@ h6 {
   position: absolute;
   left: -20%;
   bottom: 20%;
-  height: 310px;
-  width: 400px;
+  height: 309px;
+  width: 399px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
@@ -180,10 +180,32 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   outline: none !important;
+  -webkit-transition: opacity .25s ease, -webkit-transform .25s ease;
+  transition: opacity .25s ease, -webkit-transform .25s ease;
+  -o-transition: opacity .25s ease, -o-transform .25s ease;
+  -moz-transition: transform .25s ease, opacity .25s ease, -moz-transform .25s ease;
+  transition: transform .25s ease, opacity .25s ease;
+  transition: transform .25s ease, opacity .25s ease, -webkit-transform .25s ease, -moz-transform .25s ease, -o-transform .25s ease;
+  opacity: 1;
+  -webkit-transform: scale(1);
+     -moz-transform: scale(1);
+      -ms-transform: scale(1);
+       -o-transform: scale(1);
+          transform: scale(1);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.44));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.44));
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -20px 60px 220px rgba(0, 0, 0, 0.44);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -20px 60px 220px rgba(0, 0, 0, 0.44);
+}
+
+.hero__video:hover,
+.hero__video:focus {
+  opacity: .95;
+  -webkit-transform: scale(1.025);
+     -moz-transform: scale(1.025);
+      -ms-transform: scale(1.025);
+       -o-transform: scale(1.025);
+          transform: scale(1.025);
 }
 
 .hero__video-play {

@@ -8,8 +8,8 @@
     position: absolute;
     left: -20%;
     bottom: 20%;
-    height: 310px;
-    width: 400px;
+    height: 309px;
+    width: 399px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,8 +17,16 @@
     align-items: center;
     justify-content: center;
     outline: none !important;
+    transition: transform .25s ease, opacity .25s ease;
+    opacity: 1;
+    transform: scale(1);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.44));
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -20px 60px 220px rgba(0, 0, 0, 0.44);
+}
+.hero__video:hover,
+.hero__video:focus{
+    opacity: .95;
+    transform: scale(1.025);
 }
 
 .hero__video-play{
