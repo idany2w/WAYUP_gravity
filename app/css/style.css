@@ -48,6 +48,16 @@ h6 {
   line-height: 1.1em;
 }
 
+.caption {
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.caption_h3 {
+  font-size: 40px;
+  margin: 36px 0 30px;
+}
+
 .about {
   padding-bottom: 137px;
 }
@@ -120,14 +130,24 @@ h6 {
   color: #fff;
 }
 
-.caption {
-  line-height: 1.25;
-  font-weight: 600;
+.header {
+  padding-bottom: 137px;
 }
 
-.caption_h3 {
-  font-size: 40px;
-  margin: 36px 0 30px;
+.header__nav {
+  padding: 60px 0;
+}
+
+.header__search {
+  background: transparent;
+  border: none;
+}
+
+.header__menu {
+  display: block;
+  margin-left: auto;
+  background: transparent;
+  border: none;
 }
 
 .hero {
@@ -171,26 +191,6 @@ h6 {
   width: 65px;
   height: 65px;
   pointer-events: none;
-}
-
-.header {
-  padding-bottom: 137px;
-}
-
-.header__nav {
-  padding: 60px 0;
-}
-
-.header__search {
-  background: transparent;
-  border: none;
-}
-
-.header__menu {
-  display: block;
-  margin-left: auto;
-  background: transparent;
-  border: none;
 }
 
 .offer {
