@@ -25,7 +25,8 @@ const css_src = [
 ]
 const js_src = [
     "node_modules/jquery/dist/jquery.slim.min.js", //jquery
-    "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", //bootstrap js(poppe.js included)
+	"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", //bootstrap js(poppe.js included)
+	"node_modules/owl.carousel/dist/owl.carousel.min.js", //owl carousel
     "app/blocks/**/*.js",
     "app/js/**/*.js",		
     "!app/js/script.js", 
