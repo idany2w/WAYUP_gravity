@@ -17,7 +17,7 @@ const scss_src = [
     "app/scss/**/*.scss"
 ]
 const css_src = [
-	"node_modules/bootstrap/dist/css/bootstrap.min.css",	//add bootstrap styles
+	"node_modules/bootstrap/dist/css/bootstrap-grid.min.css",	//add bootstrap styles
     "app/css/**/*.css",
     "app/blocks/**/*.css",
     "!app/css/style.css",
