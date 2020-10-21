@@ -18,6 +18,7 @@ const scss_src = [
 ]
 const css_src = [
 	"node_modules/bootstrap/dist/css/bootstrap-grid.min.css",	//add bootstrap styles
+	"node_modules/owl.carousel/dist/assets/owl.carousel.min.css", //owl carousel styles
     "app/css/**/*.css",
     "app/blocks/**/*.css",
     "!app/css/style.css",
