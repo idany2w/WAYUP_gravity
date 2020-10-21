@@ -59,39 +59,6 @@ p {
   margin-bottom: 20px;
 }
 
-.btn {
-  background-color: #3726F2;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.7;
-  padding: 16px 30px;
-  border: none;
-  border-radius: 0;
-  display: inline;
-  letter-spacing: 0.3em;
-  -webkit-transition: background-color .25s ease, color .25s ease;
-  -o-transition: background-color .25s ease, color .25s ease;
-  -moz-transition: background-color .25s ease, color .25s ease;
-  transition: background-color .25s ease, color .25s ease;
-}
-
-.btn:hover {
-  background-color: #4737ff;
-  color: #fff;
-}
-
-.caption {
-  line-height: 1.25;
-  font-weight: 600;
-}
-
-.caption__big-title {
-  font-size: 40px;
-  margin: 36px 0 30px;
-}
-
 .about {
   padding-bottom: 137px;
   overflow-x: hidden;
@@ -140,6 +107,60 @@ p {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.555;
+}
+
+.btn {
+  background-color: #3726F2;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 0;
+  display: inline;
+  letter-spacing: 0.3em;
+  -webkit-transition: background-color .25s ease, color .25s ease;
+  -o-transition: background-color .25s ease, color .25s ease;
+  -moz-transition: background-color .25s ease, color .25s ease;
+  transition: background-color .25s ease, color .25s ease;
+}
+
+.btn:hover {
+  background-color: #4737ff;
+  color: #fff;
+}
+
+.header {
+  padding-bottom: 137px;
+  overflow-x: hidden;
+}
+
+.header__nav {
+  padding: 60px 0;
+}
+
+.header__search {
+  background: transparent;
+  border: none;
+}
+
+.header__menu {
+  display: block;
+  margin-left: auto;
+  background: transparent;
+  border: none;
+}
+
+.caption {
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.caption__big-title {
+  font-size: 40px;
+  margin: 36px 0 30px;
 }
 
 .hero {
@@ -207,25 +228,29 @@ p {
   pointer-events: none;
 }
 
-.header {
-  padding-bottom: 137px;
-  overflow-x: hidden;
+.offer {
+  position: relative;
 }
 
-.header__nav {
-  padding: 60px 0;
+.offer__content {
+  padding-top: 60px;
 }
 
-.header__search {
-  background: transparent;
-  border: none;
+.offer__title {
+  font-size: 60px;
 }
 
-.header__menu {
-  display: block;
-  margin-left: auto;
-  background: transparent;
-  border: none;
+.offer__description {
+  margin: 30px 0 56px;
+}
+
+.section-title {
+  margin: 5px 0px 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 0.29em;
+  text-transform: uppercase;
 }
 
 .services {
@@ -271,31 +296,6 @@ p {
   font-size: 18px;
   line-height: 1.56;
   margin-bottom: 21px;
-}
-
-.offer {
-  position: relative;
-}
-
-.offer__content {
-  padding-top: 60px;
-}
-
-.offer__title {
-  font-size: 60px;
-}
-
-.offer__description {
-  margin: 30px 0 56px;
-}
-
-.section-title {
-  margin: 5px 0px 4px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.71;
-  letter-spacing: 0.29em;
-  text-transform: uppercase;
 }
 
 .slider {
