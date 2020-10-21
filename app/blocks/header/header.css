@@ -1,5 +1,6 @@
 .header {
   padding-bottom: 137px;
+  overflow-x: hidden;
 }
 
 .header__nav {
