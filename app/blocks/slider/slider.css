@@ -1,0 +1,28 @@
+.slider {
+  overflow-x: hidden;
+  padding-top: 49px;
+}
+
+.slider__nav-btns {
+  margin: 50px 0px;
+}
+
+.slider__nav-btn {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #C4C4C4;
+  border: 2px solid #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider__nav-btn_prev {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxMSAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOS41IDEuNUwyIDkuMzEyNUw5LjUgMTcuMTI1IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=");
+  margin-right: 25px;
+}
+
+.slider__nav-btn_next {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxMSAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMS41IDE2Ljc1TDkgOC45Mzc1TDEuNSAxLjEyNSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+");
+}
