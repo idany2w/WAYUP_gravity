@@ -108,6 +108,27 @@ p {
   line-height: 1.555;
 }
 
+.header {
+  padding-bottom: 137px;
+  overflow-x: hidden;
+}
+
+.header__nav {
+  padding: 60px 0;
+}
+
+.header__search {
+  background: transparent;
+  border: none;
+}
+
+.header__menu {
+  display: block;
+  margin-left: auto;
+  background: transparent;
+  border: none;
+}
+
 .btn {
   background-color: #3726F2;
   color: #fff;
@@ -229,27 +250,6 @@ p {
   line-height: 1.71;
   letter-spacing: 0.29em;
   text-transform: uppercase;
-}
-
-.header {
-  padding-bottom: 137px;
-  overflow-x: hidden;
-}
-
-.header__nav {
-  padding: 60px 0;
-}
-
-.header__search {
-  background: transparent;
-  border: none;
-}
-
-.header__menu {
-  display: block;
-  margin-left: auto;
-  background: transparent;
-  border: none;
 }
 
 .services {
