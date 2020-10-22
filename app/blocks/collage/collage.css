@@ -15,4 +15,10 @@
   margin-left: auto;
   filter: drop-shadow(30px 80px 180px rgba(0, 0, 0, 0.25));
   box-shadow: 30px 80px 180px rgba(0, 0, 0, 0.25);
+  transition: transform .25s ease;
+  transform: translate(0px);
+}
+
+.collage__img-front:hover {
+  transform: translate(-5px, -5px);
 }
