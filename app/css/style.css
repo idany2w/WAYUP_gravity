@@ -48,6 +48,9 @@ body {
   font-family: "Fira Sans", sans-serif;
   color: #8D8D8D;
   font-size: 18px;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 h1,
@@ -118,6 +121,16 @@ p {
   margin: 61px 0 0 0;
 }
 
+.caption {
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.caption__big-title {
+  font-size: 40px;
+  margin: 36px 0 30px;
+}
+
 .btn {
   background-color: #3726F2;
   color: #fff;
@@ -150,16 +163,6 @@ p {
       -ms-transform: translateY(-5px);
        -o-transform: translateY(-5px);
           transform: translateY(-5px);
-}
-
-.caption {
-  line-height: 1.25;
-  font-weight: 600;
-}
-
-.caption__big-title {
-  font-size: 40px;
-  margin: 36px 0 30px;
 }
 
 .collage {
@@ -312,15 +315,6 @@ p {
   color: #000000;
 }
 
-.section-title {
-  margin: 5px 0px 4px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.71;
-  letter-spacing: 0.29em;
-  text-transform: uppercase;
-}
-
 .offer {
   position: relative;
 }
@@ -380,6 +374,15 @@ p {
   font-size: 18px;
   line-height: 1.56;
   margin-bottom: 21px;
+}
+
+.section-title {
+  margin: 5px 0px 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 0.29em;
+  text-transform: uppercase;
 }
 
 .slider {
