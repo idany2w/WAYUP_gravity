@@ -10,10 +10,11 @@
   border-radius: 0;
   display: inline;
   letter-spacing: 0.3em;
-  transition: background-color .25s ease, color .25s ease;
+  transform: translateY(0px);
+  transition: transform .25s ease;
 }
 
-.btn:hover {
-  background-color: #4737ff;
-  color: #fff;
+.btn:hover,
+.btn:focus {
+  transform: translateY(-5px);
 }

@@ -1,0 +1,18 @@
+.collage{
+    position: relative;
+    padding-top: 99px;
+}
+
+.collage__img-back{
+    position: absolute;
+    right: 95px;
+    top: 0;
+    z-index: -1;
+}
+
+.collage__img-front{
+    display: block;
+    margin-left: auto;
+    filter: drop-shadow(30px 80px 180px rgba(0, 0, 0, 0.25));
+    box-shadow: 30px 80px 180px rgba(0, 0, 0, 0.25);
+}

@@ -3,6 +3,7 @@ $(window).on('load', function () {
         nav: true,
         margin:30,
         items:1,
+        loop: true,
         dots: false,
         navText: ['',''],
         navContainerClass: "slider__nav-btns",
