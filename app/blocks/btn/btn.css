@@ -12,6 +12,7 @@
   letter-spacing: 0.3em;
   transform: translateY(0px);
   transition: transform .25s ease;
+  text-decoration: none;
 }
 
 .btn:hover,
