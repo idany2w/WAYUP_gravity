@@ -2,6 +2,10 @@
   margin-bottom: 41px;
 }
 
+.about__caption {
+  margin: 36px 0 30px;
+}
+
 .about__author {
   display: flex;
   align-items: center;

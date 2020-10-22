@@ -3,7 +3,11 @@
   font-weight: 600;
 }
 
-.caption__big-title {
+.caption_big-title {
   font-size: 40px;
   margin: 36px 0 30px;
+}
+
+.caption_title {
+  font-size: 40px;
 }
