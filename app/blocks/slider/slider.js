@@ -1,5 +1,5 @@
 $(window).on('load', function () {
-    $('.owl-carousel').owlCarousel({
+    $('.slider__inner .owl-carousel').owlCarousel({
         nav: true,
         margin:30,
         items:1,
