@@ -1,4 +1,9 @@
-.text-width-caption{}
+.text-width-caption{
+    padding-top: 30px;
+    @media screen and (min-width: 992px) {
+        padding-top: 0px;
+    }
+}
 
 .text-width-caption__caption{
     font-weight: 500;

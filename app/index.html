@@ -2,9 +2,8 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <meta name="viewport" content="width=1440">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -13,65 +12,59 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="header__nav">
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a class="header__logo" href="#">
+                    <img class="header__logo-img" src="img/dist/logo.svg" alt="Gravity">
+                </a>
+                <button class="header__search">
+                    <img src="img/dist/search.svg" alt="Search button">
+                </button>
+                <button class="header__menu">
+                    <img src="img/dist/menu.svg" alt="Menu">
+                </button>
+            </nav>
+        </div>
+    </header>
+    <section id="offer">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <a href="#">
-                            <img class="header__logo-img" src="img/dist/logo.svg" alt="Gravity">
-                        </a>
-                    </div>
-                    <div class="col-md-3 offset-md-2">
-                        <button class="header__search">
-                            <img src="img/dist/search.svg" alt="Search button">
-                        </button>
-                    </div>
-                    <div class="col-md-3">
-                        <button class="header__menu">
-                            <img src="img/dist/menu.svg" alt="Menu">
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <div class="offer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="offer__content">
-                            <h1 class="offer__title">Work around you and your team</h1>
-                            <p class="offer__description">From ads that dance or sing to MTV-like commercials, online
-                                advertisers are now using a new type of technology “rich media” to attract consumers.
-                            </p>
+                <div class="offer__row row">
+                    <div class="col-lg-6 col-xl-5">
+                        <div class="offer">
+                            <div class="offer__content">
+                                <h1 class="offer__title">Work around you and your team</h1>
+                                <p class="offer__description">From ads that dance or sing to MTV-like commercials, online
+                                    advertisers are now using a new type of technology “rich media” to attract consumers.
+                                </p>
+                            </div>
+                            <button class="offer__btn btn">Get started</button>
                         </div>
-                        <button class="offer__btn btn">Get started</button>
                     </div>
-                    <div class="col-md-6 position-static">
+                    <div class="col-lg-6 offset-xl-1">
                         <div class="hero">
                             <img class="hero__bg-img" src="img/dist/img1.jpg" alt="">
                             <button class="hero__video" style="background-image: url('img/dist/video.jpg');">
                                 <object class="hero__video-play" type="image/svg+xml" data="img/dist/play.svg">
-                                    <img src="img/dist/video.png">
+                                    <img src="img/dist/play.png">
                                 </object>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+    </section>
 
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
-                    <img src="img/dist/img2.jpg" alt="">
+                <div class="col-lg-5">
+                    <img class="custom-img-1" src="img/dist/img2.jpg" alt="">
                 </div>
-                <div class="col-md-6 offset-md-1">
+                <div class="col-lg-6 offset-lg-1">
                     <div class="about">
                         <div class="about__text">
-                            <h3 class="caption caption_big-title">We solve digital problems with an outstanding
+                            <h3 class="about__caption caption">We solve digital problems with an outstanding
                                 creative flare</h3>
                             <p>The best time to view the moon, obviously, is at night when there are few clouds and the
                                 weather is accommodating for a long and lasting study.</p>
@@ -90,51 +83,57 @@
             </div>
         </div>
     </section>
-
-    <section class="services">
+    
+    <section id="services">
         <div class="container">
-            <div class="section-title">
-                <span class="section-title__heading">— Services</span>
-            </div>
+           
             <div class="row">
-                <div class="col-md-6">
-                    <h3 class="caption caption_big-title">We love work hard and explore new things that’s why we cover
-                        lot of things. Check our service list and view details</h3>
-                </div>
-                <div class="col-md-5">
-                    <div class="services__lists">
-                        <ul class="services__list">
-                            <li class="services__list-item">Multimedia</li>
-                            <li class="services__list-item">Interactive design</li>
-                            <li class="services__list-item">Packaging</li>
-                            <li class="services__list-item">Branding</li>
-                        </ul>
-                        <ul class="services__list">
-                            <li class="services__list-item">Creative Strategy</li>
-                            <li class="services__list-item">UI/UX</li>
-                            <li class="services__list-item">Coding</li>
-                        </ul>
+                <div class="col">
+                    <div class="section-title">
+                        <span class="section-title__heading">— Services</span>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="slider">
-        <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="slider__inner">
+                    <div class="services">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h3 class="services__caption caption">We love work hard and explore new things that’s why we cover
+                                    lot of things. Check our service list and view details</h3>
+                            </div>
+                            <div class="col-lg-6 col-xl-5 offset-xl-1">
+                                <ul class="services__list">
+                                    <li class="services__list-item">Multimedia</li>
+                                    <li class="services__list-item">Interactive design</li>
+                                    <li class="services__list-item">Packaging</li>
+                                    <li class="services__list-item">Branding</li>
+                                    <li class="services__list-item">Creative Strategy</li>
+                                    <li class="services__list-item">UI/UX</li>
+                                    <li class="services__list-item">Coding</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="slider">
                         <div class="owl-carousel">
                             <div class="item slider__slide">
                                 <img src="img/dist/img3.jpg" alt="work" srcset="">
-                                <div class="slider__video-play"><img src="img/dist/video.svg"
-                                        style="display: initial; width: 65px; height: 65px;"></div>
+                                <div class="slider__video-play">
+                                    <img src="img/dist/video.svg" style="display: initial; width: 65px; height: 65px;">
+                                </div>
                             </div>
                             <div class="item slider__slide">
                                 <img src="img/dist/img4.jpg" alt="work" srcset="">
-                                <div class="slider__video-play"><img src="img/dist/video.svg"
-                                        style="display: initial; width: 65px; height: 65px;"></div>
+                                <div class="slider__video-play">
+                                    <img src="img/dist/video.svg" style="display: initial; width: 65px; height: 65px;">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -146,16 +145,16 @@
     <section id="features">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="collage">
                         <img class="collage__img-back" src="img/dist/img6.jpg" alt="">
                         <img class="collage__img-front" src="img/dist/img5.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-md-5 offset-md-1">
+                <div class="col-lg-5 offset-lg-1">
                     <div class="about">
                         <div class="about__text">
-                            <h3 class="caption caption_big-title">Well thought with super easy to use</h3>
+                            <h3 class="about__caption caption">Well thought with super easy to use</h3>
                             <p>As we approached the palace I could see through the great windows of the first floor the
                                 brilliantly illuminated audience chamber of Than Kosis. The immense hall was crowded
                                 with nobles and their women.</p>
@@ -211,37 +210,37 @@
                         </div>
                         <div class="grid-gallery__gallery">
                             <div class="row">
-                                <div class="col-md-4 grid-gallery__filtarable" data-filterable="all Branding">
+                                <div class="col-md-4 col-sm-6 col-6 grid-gallery__filtarable" data-filterable="all Branding">
                                     <div class="grid-gallery__item">
                                         <button class="grid-gallery__item-btn">
                                             <img class="grid-gallery__img" src="img/dist/img8.jpg" alt=""></div>
                                     </button>
                                 </div>
-                                <div class="col-md-4 grid-gallery__filtarable" data-filterable="all Web">
+                                <div class="col-md-4 col-sm-6 col-6 grid-gallery__filtarable" data-filterable="all Web">
                                     <div class="grid-gallery__item">
                                         <button class="grid-gallery__item-btn">
                                             <img class="grid-gallery__img" src="img/dist/img9.jpg" alt=""></div>
                                     </button>
                                 </div>
-                                <div class="col-md-4 grid-gallery__filtarable" data-filterable="all Development">
+                                <div class="col-md-4 col-sm-6 col-6 grid-gallery__filtarable" data-filterable="all Development">
                                     <div class="grid-gallery__item">
                                         <button class="grid-gallery__item-btn">
                                             <img class="grid-gallery__img" src="img/dist/img7.jpg" alt=""></div>
                                     </button>
                                 </div>
-                                <div class="col-md-4 grid-gallery__filtarable" data-filterable="all Films">
+                                <div class="col-md-4 col-sm-6 col-6 grid-gallery__filtarable" data-filterable="all Films">
                                     <div class="grid-gallery__item">
                                         <button class="grid-gallery__item-btn">
                                             <img class="grid-gallery__img" src="img/dist/img10.jpg" alt=""></div>
                                     </button>
                                 </div>
-                                <div class="col-md-4 grid-gallery__filtarable" data-filterable="all Branding">
+                                <div class="col-md-4 col-sm-6 col-6 grid-gallery__filtarable" data-filterable="all Branding">
                                     <div class="grid-gallery__item">
                                         <button class="grid-gallery__item-btn">
                                             <img class="grid-gallery__img" src="img/dist/img11.jpg" alt=""></div>
                                     </button>
                                 </div>
-                                <div class="col-md-4 grid-gallery__filtarable" data-filterable="all Web">
+                                <div class="col-md-4 col-sm-6 col-6 grid-gallery__filtarable" data-filterable="all Web">
                                     <div class="grid-gallery__item">
                                         <button class="grid-gallery__item-btn">
                                             <img class="grid-gallery__img" src="img/dist/img12.jpg" alt=""></div>
@@ -251,12 +250,12 @@
                         </div>
                         <div class="grid-gallery__footer">
                             <div class="row align-items-start">
-                                <div class="col-md-8">
+                                <div class="col-lg-8">
                                     <p class="grid-gallery__text">It picks up the words on the page and displays ads
                                         that are similar to those words. Then when someone either performs an action or
                                         clicks on your page you will get paid.</p>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4">
                                     <a class="grid-gallery__btn btn" href="#">See our works</a>
                                 </div>
                             </div>
@@ -269,11 +268,11 @@
 
     <section class="testimonials-slider">
         <div class="testimonials-slider__container container">
-            <span class="testimonials-slider__caption section-title__heading">— Testimonials</span>
+            <span class="testimonials-slider__caption section-title">— Testimonials</span>
                 <div class="testimonials-slider__slides owl-carousel">
                     <div class="testimonials-slider__slide">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-xl-6 col-lg-6">
                                 <div class="testimonials-slider__content">
                                     <h3 class="testimonials-slider__text caption caption_big-title">"Professionals in their craft! All products were super great with strong attention to details, and overall vibe"</h3>
                                     <div class="testimonials-slider__author">
@@ -282,7 +281,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5 offset-md-1">
+                            <div class="col-xl-5 col-lg-6 offset-xl-1">
                                 <div class="testimonials-slider__photo">
                                     <img src="img/dist/photo.jpg" alt="" class="testimonials-slider__photo-img">
                                 </div>
@@ -291,7 +290,7 @@
                     </div>
                     <div class="testimonials-slider__slide">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <div class="testimonials-slider__content">
                                     <h3 class="testimonials-slider__text caption caption_big-title">"2 Professionals in their craft! All products were super great with strong attention to details, and overall vibe"</h3>
                                     <div class="testimonials-slider__author">
@@ -300,7 +299,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5 offset-md-1">
+                            <div class="col-lg-5 offset-lg-1">
                                 <div class="testimonials-slider__photo">
                                     <img src="img/dist/photo.jpg" alt="" class="testimonials-slider__photo-img">
                                 </div>
@@ -314,10 +313,10 @@
     <section id="clients">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
-                    <h3 class="caption caption_title">Our Clients</h3>
+                <div class="col-xl-5 col-lg-6">
+                    <h3 class="caption">Our Clients</h3>
                 </div>
-                <div class="col-md-5 ml-auto">
+                <div class="col-xl-5 col-lg-6 ml-auto">
                     <div class="text-width-caption">
                         <span class="text-width-caption__caption">
                             — We worked with

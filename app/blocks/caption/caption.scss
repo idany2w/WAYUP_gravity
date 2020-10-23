@@ -1,13 +1,8 @@
 .caption{
     line-height: 1.25;
     font-weight: 600;
-}
-
-.caption_big-title{
     font-size: 40px;
-    margin: 36px 0 30px;
-}
-
-.caption_title{
-    font-size: 40px;
+    @media screen and (max-width: 340px) {
+        font-size: 26px;
+    }
 }

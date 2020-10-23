@@ -1,15 +1,32 @@
 .hero{
     position: relative;
+    width: 75%;
+    margin-left: auto;
+    padding: 60px 0;
+    @media screen and (min-width: 992px) {
+        width: auto;
+        margin-left: 0;
+        padding: 0;
+    }
+    @media screen and (max-width: 451px) {
+        padding: 30px 0;
+    }
 }
 
-// .hero__bg-img{}
+.hero__bg-img{
+    display: block;
+    width: 100%;
+    @media screen and (min-width: 992px) {
+        width: auto;
+    }
+}
 
 .hero__video{
     position: absolute;
-    left: -20%;
+    left: -30%;
     bottom: 20%;
-    height: 309px;
-    width: 399px;
+    width: 100%;
+    height: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,12 +37,17 @@
     transition: transform .25s ease, opacity .25s ease;
     opacity: 1;
     transform: translateY(0px);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.44));
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -20px 60px 220px rgba(0, 0, 0, 0.44);
-}
-.hero__video:hover,
-.hero__video:focus{
-    transform: translateY(-5px);
+    &:hover,
+    &focus{
+        transform: translateY(-5px);
+    }
+    @media screen and (min-width: 768px) {
+        left: -20%;
+        bottom: 20%;
+        height: 309px;
+        width: 399px;
+    }
 }
 
 .hero__video-play{

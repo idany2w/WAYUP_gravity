@@ -7,6 +7,12 @@ body {
   -ms-text-size-adjust: 100%;
 }
 
+@media screen and (max-width: 340px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 h1,
 h2,
 h3,

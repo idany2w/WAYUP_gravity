@@ -20,12 +20,10 @@ function gridGalleryFilter(e){
 
     filterable.forEach(element => {
         const filterNames = element.dataset['filterable'].toLowerCase().split(' ');
-        const height = element.offsetHeight + 'px';
 
         if(filterNames.indexOf(filterName) != -1){
             element.classList.remove('grid-gallery__filtarable_hidden');
         } else{
-            element.style.height = height;
             element.classList.add('grid-gallery__filtarable_hidden');
         }
     });

@@ -3,7 +3,14 @@ $(window).on('load', function () {
         nav: false,
         dots: false,
         margin:30,
-        items:5,
-        loop: true
+        loop: true,
+        responsive:{
+            991:{
+                autoWidth: true
+            },
+            992:{
+                items:5,
+            },
+        }
     })
 })

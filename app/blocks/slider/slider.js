@@ -1,5 +1,5 @@
 $(window).on('load', function () {
-    $('.slider__inner .owl-carousel').owlCarousel({
+    $('.slider .owl-carousel').owlCarousel({
         nav: true,
         margin:30,
         items:1,
@@ -12,10 +12,10 @@ $(window).on('load', function () {
             'slider__nav-btn slider__nav-btn_next'
         ],
         responsive:{
-            576:{
+            991:{
                 autoWidth: false
             },
-            768:{
+            992:{
                 autoWidth: true
             },
         }

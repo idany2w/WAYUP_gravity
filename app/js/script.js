@@ -20,8 +20,15 @@ $(window).on('load', function () {
         nav: false,
         dots: false,
         margin:30,
-        items:5,
-        loop: true
+        loop: true,
+        responsive:{
+            991:{
+                autoWidth: true
+            },
+            992:{
+                items:5,
+            },
+        }
     })
 })
 $(window).on('load', function () {
@@ -46,12 +53,10 @@ function gridGalleryFilter(e){
 
     filterable.forEach(element => {
         const filterNames = element.dataset['filterable'].toLowerCase().split(' ');
-        const height = element.offsetHeight + 'px';
 
         if(filterNames.indexOf(filterName) != -1){
             element.classList.remove('grid-gallery__filtarable_hidden');
         } else{
-            element.style.height = height;
             element.classList.add('grid-gallery__filtarable_hidden');
         }
     });
@@ -65,7 +70,7 @@ $(window).on('load', function () {
     })
 })
 $(window).on('load', function () {
-    $('.slider__inner .owl-carousel').owlCarousel({
+    $('.slider .owl-carousel').owlCarousel({
         nav: true,
         margin:30,
         items:1,
@@ -78,10 +83,10 @@ $(window).on('load', function () {
             'slider__nav-btn slider__nav-btn_next'
         ],
         responsive:{
-            576:{
+            991:{
                 autoWidth: false
             },
-            768:{
+            992:{
                 autoWidth: true
             },
         }

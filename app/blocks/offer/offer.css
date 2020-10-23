@@ -1,15 +1,38 @@
 .offer {
-  position: relative;
+  padding: 60px 0px;
 }
 
-.offer__content {
-  padding-top: 60px;
+@media screen and (max-width: 451px) {
+  .offer {
+    padding: 30px 0;
+  }
+}
+
+.offer__row {
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 992px) {
+  .offer__row {
+    flex-direction: row;
+  }
 }
 
 .offer__title {
   font-size: 60px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 340px) {
+  .offer__title {
+    font-size: 40px;
+  }
 }
 
 .offer__description {
-  margin: 30px 0 56px;
+  margin: 0;
+}
+
+.offer__btn {
+  margin-top: 56px;
 }

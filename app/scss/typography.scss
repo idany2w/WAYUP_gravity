@@ -5,6 +5,9 @@ body {
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    @media screen and (max-width: 340px) {
+        font-size: 14px;
+    }
 }
 
 h1,

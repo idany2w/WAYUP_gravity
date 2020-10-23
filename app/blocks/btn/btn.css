@@ -15,6 +15,13 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 340px) {
+  .btn {
+    font-size: 10px;
+    padding: 12px 26px;
+  }
+}
+
 .btn:hover,
 .btn:focus {
   transform: translateY(-5px);

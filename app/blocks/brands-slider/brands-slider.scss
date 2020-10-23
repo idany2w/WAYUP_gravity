@@ -3,7 +3,10 @@
 }
 .brands-slider__item-img{
     display: block;
-    height: 68px;
+    height: 30px;
     width: auto !important;
     margin: auto;
+    @media screen and (min-width: 992px) {
+        height: 68px;
+    }
 }

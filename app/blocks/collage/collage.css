@@ -1,13 +1,28 @@
 .collage {
   position: relative;
   padding-top: 99px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .collage {
+    padding-bottom: 0px;
+  }
 }
 
 .collage__img-back {
   position: absolute;
-  right: 95px;
+  left: 0;
   top: 0;
   z-index: 0;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 992px) {
+  .collage__img-back {
+    left: auto;
+    right: 95px;
+  }
 }
 
 .collage__img-front {
@@ -16,6 +31,7 @@
   box-shadow: 30px 80px 180px rgba(0, 0, 0, 0.25);
   transition: transform .25s ease;
   transform: translate(0px);
+  max-width: 50%;
 }
 
 .collage__img-front:hover {
