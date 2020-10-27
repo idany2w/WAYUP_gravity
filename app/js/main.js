@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', function(){
 window.addEventListener("orientationchange", function() {
     console.log(window.orientation);
 
-    if(window.orientation == 90){
+    if(window.orientation == (90 || -90) ){
         vp.setAttribute('content', mobileHOrisontalViewPortContent);
     } else{
         vp.setAttribute('content', defViewPortContent);
